@@ -1,0 +1,16 @@
+id: dsammaruga:soil_sensor
+version: 1.0.0
+name: Soil Sensor
+description: Reads a capacitive soil moisture sensor and reports moisture readings with a dry/ok state.
+category: miscellaneous
+author: Dario Sammaruga
+brick_repo: https://github.com/dsammaruga/third-party-bricks-test
+license: MIT
+min_app_cli: 0.14.0
+variables:
+  - name: SOIL_THRESHOLD
+    description: Moisture percentage below which the soil is reported as dry
+    default_value: "40"
+  - name: SOIL_PERIOD_SEC
+    description: Seconds between two readings
+    default_value: "5"

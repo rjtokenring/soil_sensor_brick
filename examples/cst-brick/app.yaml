@@ -1,0 +1,6 @@
+name: cst brick
+description: ""
+ports: []
+bricks:
+- soil_sensor: {}
+icon: 😀
